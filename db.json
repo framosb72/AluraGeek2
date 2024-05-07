@@ -1,0 +1,16 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Gameboy",
+      "precio": "$150.00",
+      "imagen": "gameboy.png"
+    },
+    {
+      "id": "de53",
+      "nombre": "Playera Nerd",
+      "precio": "$200.00",
+      "imagen": "nerd_tshirt.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="esp" data-contexto="alurageek">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="divEncabezado">
+            <h1>
+                <img class="logo-image" src="./imagenes/logo1.png" alt="">
+            </h1>
+            <p>
+            <h1 class="app_titulo">AluraGeek</h1>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="listadoProducto producto">
+                <h2 class="tituloSeccion">Mis Productos</h2>
+                <ul class="contenedor_productos" data-lista>
+                    <!--
+                    <li class="producto_item">
+                        <div class="marcoProducto">
+                            <img class="imagen_producto" src="./data_image/stormtrooper.jpeg" alt="Producto Temporal">
+                            <div class="detalles__producto">
+                                <h3>Stormtrooper</h3>
+                                <p>$ 60.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="producto_item">
+                        <div class="marcoProducto">
+                            <img class="imagen_producto" src="./data_image/gameboy.png" alt="Producto Temporal">
+                            <div class="detalles__producto">
+                                <h3>Gameboy</h3>
+                                <p>$ 70.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="producto_item">
+                        <div class="marcoProducto">
+                            <img class="imagen_producto" src="./data_image/stormtrooper.jpeg" alt="Producto Temporal">
+                            <div class="detalles__producto">
+                                <h3>Stormtrooper</h3>
+                                <p>$ 60.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="producto_item">
+                        <div class="marcoProducto">
+                            <img class="imagen_producto" src="./data_image/stormtrooper.jpeg" alt="Producto Temporal">
+                            <div class="detalles__producto">
+                                <h3>Stormtrooper</h3>
+                                <p>$ 60.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="producto_item">
+                        <div class="marcoProducto">
+                            <img class="imagen_producto" src="./data_image/stormtrooper.jpeg" alt="Producto Temporal">
+                            <div class="detalles__producto">
+                                <h3>Stormtrooper</h3>
+                                <p>$ 60.00</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    -->
+                </ul>
+            </div>
+            <div class="agregaProducto">
+                <h2 class="tituloSeccion">Agregar Productos</h2>
+                <form class="contenedor_formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                        <input type="text" class="nombre data" placeholder="nombre..." required data-nombre>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <input type="text" class="precio data" placeholder="precio..." required data-precio>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <input type="text" class="imagen data" placeholder="imagen..." required data-imagen>
+                    </fieldset>
+                    <div class="divBotonesAgregar">
+                        <a href="#" class="botonEnviar">Enviar</a>
+                        <a href="#" class="botonLimpiar">Limpiar</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="divPiePagina">
+            <h1>
+                <img class="logo-image" src="./imagenes/logo1.png" alt="">
+            </h1>
+            <p>
+            <h1 class="app_titulo">AluraGeek</h1>
+            </p>
+        </div>
+        <p>Desarrollado por Fernando Ramos</p>
+        <p>ALURA LATAM 2024</p> 
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/borrarProducto.js" type="module"></script>
+</body>
+
+</html>

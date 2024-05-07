@@ -1,0 +1,191 @@
+body{
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    height: 60px;
+    background-color: #5d04d9;
+    padding: 20px 0;
+}
+
+.logo-image{
+    width: 70px;
+    height: 51px;
+}
+
+.divEncabezado{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_titulo{
+    color: white;
+}
+
+.listadoProducto{
+    width: 55%;
+}
+
+.agregaProducto{
+    width: 475px;
+    height: 550px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+section{
+    padding: 20px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: top;
+    gap: 10px;
+}
+
+.tituloSeccion {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font: Press Start 2P;
+    font-size: 24px;
+}
+
+.data{
+    display: block;
+    border: 2px solid #5d04d9;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+.botonEnviar {
+    background: #5d04d9;
+    margin: 2em auto;
+    display: block;
+    border: none;
+    padding: 1em 1em;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 140px;
+    color: #FFFFFF;
+}
+
+.botonLimpiar{
+    background: #FFFFFF;
+    margin: 2em auto;
+    display: block;
+    border: solid;
+    border-color: #5d04d9;
+    padding: 1em 1em;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 140pxº;
+    color: #5d04d9;
+}
+
+.divBotonesAgregar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto_item{
+    background: #5d04d9;
+    width: 196px;
+    height: 258px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    opacity: 0px;
+    font-family: IBM Plex Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.imagen_producto{
+    width: 176px;
+    height: 174px;
+    gap: 0px;
+    border-radius: 5px;
+    border: solid;
+    opacity: 0px;
+    margin-left: 7px;
+    border-color: #000000;
+}
+
+.detalles__producto{
+    margin-left: 7px;
+}
+
+
+.detalles__producto p {
+    font-weight: bold;
+}
+
+.contenedor_productos {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    
+}
+
+.iconTrash{
+    height: 24px;
+    width: 24px;
+    color-scheme: white;
+}
+
+.divPiePagina{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #5d04d9;
+    padding: 20px 0;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+@media (max-width:834px) {
+
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
